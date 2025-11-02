@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        
+        <title>More Coffee</title>
+        <meta charset="UTF-8">
+        <!-- Compatibilitate cu Internet Explorer (legacy) -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Responsivitate pe dispozitive mobile -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Descrierea (SEO + afișare în Google) -->
+        <meta name="description" content="Restaurantul Casa Albă din Ungheni – locația ideală pentru nunți, cumetrii, aniversări și evenimente speciale. Bucate delicioase, atmosferă elegantă și servicii impecabile.">
+        <!-- Cuvinte cheie (nu e obligatoriu, dar util uneori) -->
+        <meta name="keywords" content="restaurant Ungheni, Casa Albă, nuntă, banchet, sală de festivități, evenimente, cumetrie, aniversare, restaurant Moldova">
+        <!-- Autorul site-ului -->
+        <meta name="author" content="d">
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="">
+        <!-- (Opțional) Meta tag pentru limba site-ului -->
+        <meta http-equiv="content-language" content="ro">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="container-header">
+                <nav class="header-navbar">
+                    <div class="navbar__logo"><a href=""><img src="assets/images/text_logo_black.svg"></a></div>
+                    <div class="navbar-links" id="navbar-links">
+                        <a class="link__home" href="">Acasă</a>
+                        <a class="link__menu" href="">Meniu</a>
+                        <a class="link__cafe" href="">Cafeneaua noastră</a>
+                        <a class="link__about" href="">Despre noi</a>
+                    </div>
+                    <button class="navbar__menu-btn" id="navbar__menu-btn"></button>
+                </nav>
+            </div>
+
+            <div class="container-main">
+                    
+                <div class="main-preview">
+
+                        <div class="preview-background">
+                            <h1>More Coffee<br>More Coffee</h1>
+                        </div>
+
+                    <div class="preview-content">
+                        <h1 class="content__name">Descoperă Gustul Adevărat Al Cafelei</h1>
+                        <p class="content__describe">Bobul de cafea cu grijă și pasiune prelucrat din cafeaua noastră este începutul unei zile senine. Aroma fantastică a cafelei predomină în sufletul clienților noșrti </p>
+                        <div class="preview-btn">
+                            <a class="preview__more-button" href="">Află mai mult
+                            <div class="preview__btn-img"></div>
+                            </a>
+                        </div>
+
+                        <img class="preview__coffee-image" src="assets/images/coffe_preview.png">
+                        <div class="preview-numbers">
+                            <!-- la fiecare numar se adauga text prin css after -->
+                            <p class="numbers__num">10+</p>
+                            <p class="numbers__num">2k+</p>
+                            <p class="numbers__num">4,9</p>
+
+                            <p class="numbers__text">Tipuri de cafea</p>
+                            <p class="numbers__text">Clienti mulțumiti</p>
+                            <p class="numbers__text">Rating-ul mediu</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-menu">
+                    <div class="menu-content">
+                        <h1 class="menu-content__name">Meniul nostru</h1>
+                        <p class="menu-content__describe">Am ales cele mai bune rețete ce cafea pe gustul fiecărui client și depunem efort pentru a aduce la un nou nivel cultura cafelei în țară</p>
+                
+                        <div class="menu-options">
+                            <button class="options__btn" data-category="classic">Clasice</button>
+                            <button class="options__btn" data-category="special">Speciale</button>
+                            <button class="options__btn" data-category="cold">Reci</button>
+                        </div>
+                        
+                        <!-- Classic menu -->
+                        <div class="menu-block" data-category="classic">
+                            <div class="block-card">
+                                <div class="card__image-amrc"></div>
+                                <h3 class="card__name">Americano</h3>
+                                <p class="card__details">Espresso diluat cu apă fierbinte — gust echilibrat, perfect pentru o pauză lungă și liniștită.</p>
+                                <button class="card__btn">Detalii</button>
+                            </div>
+    
+                            <div class="block-card">
+                                <div class="card__image-esp"></div>
+                                <h3 class="card__name">Espresso</h3>
+                                <p class="card__details">O porție concentrată de cafea, intensă și aromată — baza oricărei băuturi espresso-based.</p>
+                                <button class="card__btn">Detalii</button>
+                            </div>
+                            
+                            <div class="block-card">
+                                <div class="card__image-dopp"></div>
+                                <h3 class="card__name">Doppio</h3>
+                                <p class="card__details">Dublu espresso — dublă doză de energie și gust bogat pentru adevărații iubitori de cafea.</p>
+                                <button class="card__btn">Detalii</button>
+                            </div>
+    
+                            <div class="block-card">
+                                <div class="card__image-capp"></div>
+                                <h3 class="card__name">Cappuccino</h3>
+                                <p class="card__details">Espresso, lapte cald și spumă densă — combinația ideală dintre cremozitate și aromă.</p>
+                                <button class="card__btn">Detalii</button>
+                            </div>
+    
+                            <div class="block-card">
+                                <div class="card__image-latt"></div>
+                                <h3 class="card__name">Latte</h3>
+                                <p class="card__details">O băutură fină, cu mai mult lapte și mai puțin espresso — perfectă pentru cei ce preferă gustul blând.</p>
+                                <button class="card__btn">Detalii</button>
+                            </div>
+                            
+                            <div class="block-card">
+                                <div class="card__image-flw"></div>
+                                <h3 class="card__name">Flat White</h3>
+                                <p class="card__details">Dublu espresso cu lapte microspumat — textură catifelată, gust intens, dar echilibrat.</p>
+                                <button class="card__btn">Detalii</button>
+                            </div>                            
+                        </div>
+                        <!-- Special menu -->
+                        <div class="menu-block" data-category="special">
+                            <div class="block-card">
+                                <div class="card__image-mocha"></div>
+                                <h3 class="card__name">Mocha</h3>
+                                <p class="card__details">Espresso diluat cu apă fierbinte — gust echilibrat, perfect pentru o pauză lungă și liniștită.</p>
+                                <button class="card__btn">Detalii</button>
+                            </div>
+    
+                            <div class="block-card">
+                                <div class="card__image-affo"></div>
+                                <h3 class="card__name">Affogato</h3>
+                                <p class="card__details">Un desert italian rafinat — o porție de înghețată de vanilie „înecată” într-un shot fierbinte de espresso.</p>
+                                <button class="card__btn">Detalii</button>
+                            </div>
+                            
+                            <div class="block-card">
+                                <div class="card__image-caramel"></div>
+                                <h3 class="card__name">Caramel Latte</h3>
+                                <p class="card__details">Espresso fin cu lapte spumat și un strop de sirop de caramel, pentru o aromă dulce și catifelată.</p>
+                                <button class="card__btn">Detalii</button>
+                            </div>
+    
+                            <div class="block-card">
+                                <div class="card__image-irish"></div>
+                                <h3 class="card__name">Irish Coffee</h3>
+                                <p class="card__details">Cafea tare combinată cu whisky irlandez, zahăr brun și frișcă — o băutură clasică, plină de caracter.</p>
+                                <button class="card__btn">Detalii</button>
+                            </div>
+    
+                            <div class="block-card">
+                                <div class="card__image-corta"></div>
+                                <h3 class="card__name">Cortado</h3>
+                                <p class="card__details">Espresso amestecat cu o cantitate egală de lapte cald, care temperează aciditatea și oferă un gust echilibrat.</p>
+                                <button class="card__btn">Detalii</button>
+                            </div>
+                            
+                            <div class="block-card">
+                                <div class="card__image-macchi"></div>
+                                <h3 class="card__name">Macchiato</h3>
+                                <p class="card__details">Un espresso intens „pătat” cu puțin lapte spumat — simplu, dar puternic în aromă.</p>
+                                <button class="card__btn">Detalii</button>
+                            </div>                            
+                        </div>
+                        <!-- Cold menu -->
+                        <div class="menu-block" data-category="cold">
+                            <div class="block-card">
+                                <div class="card__image-icelatte"></div>
+                                <h3 class="card__name">Iced Latte</h3>
+                                <p class="card__details">Espresso răcoritor combinat cu lapte rece și cuburi de gheață — un clasic perfect pentru zilele calde.</p>
+                                <button class="card__btn">Detalii</button>
+                            </div>
+    
+                            <div class="block-card">
+                                <div class="card__image-icemocha"></div>
+                                <h3 class="card__name">Iced Mocha</h3>
+                                <p class="card__details">Cafea rece, lapte și ciocolată cremoasă, servite peste gheață — combinația ideală între energie și desert.</p>
+                                <button class="card__btn">Detalii</button>
+                            </div>
+                            
+                            <div class="block-card">
+                                <div class="card__image-icemacchi"></div>
+                                <h3 class="card__name">Iced Caramel Macchiato</h3>
+                                <p class="card__details">Straturi de espresso, lapte rece și sirop de caramel, cu o textură catifelată și gust dulce intens.</p>
+                                <button class="card__btn">Detalii</button>
+                            </div>
+    
+                            <div class="block-card">
+                                <div class="card__image-coldbrew"></div>
+                                <h3 class="card__name">Cold Brew</h3>
+                                <p class="card__details">Cafea infuzată lent în apă rece timp de ore întregi — gust fin, mai puțin acid și plin de aromă naturală.</p>
+                                <button class="card__btn">Detalii</button>
+                            </div>
+                            
+                            <div class="block-card">
+                                <div class="card__image-frapp"></div>
+                                <h3 class="card__name">Frappuccino</h3>
+                                <p class="card__details">Amestec delicios de cafea, lapte și gheață blenduite, acoperite cu frișcă — desertul rece preferat al iubitorilor de cafea.</p>
+                                <button class="card__btn">Detalii</button>
+                            </div>
+
+                            <div class="block-card">
+                                <div class="card__image-icevanilla"></div>
+                                <h3 class="card__name">Iced Vanilla Latte</h3>
+                                <p class="card__details">Espresso rece și lapte cu aromă de vanilie, perfect echilibrate pentru o băutură dulce și revigorantă.</p>
+                                <button class="card__btn">Detalii</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-about">
+                    <h2 class="content__name">Despre noi</h2>
+                    <div class="about-content">
+                        <div class="content-left">
+                            <p class="about__describe">La More Coffee, credem că fiecare zi începe mai bine cu o ceașcă bună de cafea.<br>
+                            Am deschis cafeneaua noastră în inima orașului Ungheni, din dorința de a aduce o experiență autentică, simplă și sinceră — o pauză de aromă și liniște în mijlocul agitației zilnice.
+                            </p>
+
+                            <p class="about__describe">
+                            Selectăm cu grijă boabele de cafea, prăjite proaspăt și preparate cu pasiune de barista noștri.<br>
+                            Fiecare espresso, latte sau cappuccino spune o mică poveste — despre timp, tradiție și bucuria de a savura momentul.
+                            </p>
+
+                            <p class="about__describe">La More Coffee, nu e vorba doar despre băuturi, ci despre oameni.<br>
+                            Despre zâmbetele celor care vin pentru prima dată și revin pentru gustul inconfundabil al cafelei și atmosfera noastră caldă.
+                            </p>
+                        </div>
+                        <img class="content-right__image" src="assets/images/enter_caffee.jpg"></img>
+
+                        <!-- <div class="content-right">
+                            <img class="content-right__image" src="assets/images/enter_caffee.jpg"></img>
+                        </div> -->
+
+                    </div>
+                    
+                    <div class="about-content-footer">
+                        
+                        <div class="footer-card">
+                            <p class="footer__feature">Comunitate</p>       
+                            <p class="footer__value">Suntem locul unde prietenii se întâlnesc la o cafea bună.</p>
+                        </div>
+                        
+                        <div class="footer-card">             
+                            <p class="footer__feature">Pasiune</p>
+                            <p class="footer__value">Fiecare ceașcă e făcută cu grijă și atenție la detalii.</p>
+                        </div>
+
+                        <div class="footer-card">
+                             <p class="footer__feature">Calitate</p>
+                             <p class="footer__value">Folosim doar boabe selectate și ingrediente naturale.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-gallery">
+                    <div class="gallery-content">
+                        <h1 class="gallery__title">Galeria Noastră</h1>
+                        <p class="gallery__motto">Descoperă atmosfera More Coffee</p>
+                        <p class="gallery__describe">Lasă-te purtat de aroma boabelor proaspăt prăjite și de momentele autentice petrecute în cafeneaua noastră din inima orașului Ungheni. Fiecare imagine surprinde un colț din universul More Coffee — de la detaliile interioare calde până la zâmbetele oaspeților noștri.</p>
+                    </div>
+                    
+                    <div class="gallery-block">
+                        <div class="image_1"></div>
+                        <div class="image_2"></div>
+                        <div class="image_3"></div>
+                        <div class="image_4"></div>
+                        <div class="image_5"></div>
+                        <div class="image_6"></div>
+                        <div class="image_7"></div>
+                        <div class="image_8"></div>
+                        <div class="image_9"></div>
+                        <div class="image_10"></div>
+                        <div class="image_11"></div>
+                        <div class="image_12"></div>
+                        <div class="image_13"></div>
+                    </div>
+                </div>
+
+                <div class="main-repost">
+                    <div class="repost-content">
+                        <h1 class="repost-content__title">Fii în cursă de toate evenimentele.</h1>
+                        <div class="repost-content-form">
+                            <p class="email__repost">Află primul care află de modificarile în cafeneaua noastră</p>
+                            <form>
+                                <input type="email" id="email__repost" placeholder="Introduceti email-ul" class="input__email">
+                                <input type="submit" value="" class="input__submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container-footer">
+                <footer class="footer-content">
+                    <div class="col_1">
+                        <img class="footer__logo" src="assets/images/text_logo_white.svg">
+                        <p class="footer__motto">Savurează o cafea bună într-o cafenea bună.</p>
+                    </div>
+                    <div class="col_2">
+                        <p>Contacte</p>
+                        <address>
+                            Email: <a href="mailto:">morecoffee@gmail.com</a><br>
+                            Telefon: <a href="tel:+373123456789">+373 123 45 789</a><br>
+                            Adresa: <a href="https://maps.app.goo.gl/YyADucqCBpjpmW6X9">Decebal 15, Ungheni, Republica Moldova</a>
+                        </address>
+                    </div>
+                    <div class="col_3">
+                        <div class="footer-video">
+                            <video autoplay muted loop playsinline>
+                                <source src="assets/video/video_footer.mp4">
+                            </video>
+                        </div>
+                        <p class="footer__follow">Urmăriți-ne</p>
+                        <div class="social-links">
+                            <a class="icon__instagram" href="https://www.facebook.com/MoreCoffeeUngheni/"><img src="assets/images/instagram_icon.svg"></a>
+                            <a class="icon__facebook" href="https://www.instagram.com/more_coffee_ungheni/"><img src="assets/images/facebook_icon.svg"></a>
+                        </div>
+                    </div>
+                    <p class="copyright">Aceasta este o machetă copie/exemplu al cafenelei și nu are scopuri comerciale. <a href="https://www.facebook.com/MoreCoffeeUngheni/">Referință la original</a></p>
+                </footer>
+            </div>
+        </div>
+    
+    <script src="scripts/script.js"></script>
+    </body>
+</html>
