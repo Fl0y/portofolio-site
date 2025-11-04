@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
             });
         },
-        { threshold: 0.2 } // когда видимость preview меньше 20%, включается эффект
+        { threshold: 0.2 }
     );
 
     observer.observe(preview);
@@ -39,15 +39,26 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     });
 
-    // Показываем первую категорию по умолчанию
     categories[0].classList.add('active');
 
     // Menu mobile
     const menuBtn = document.getElementById("navbar__menu-btn");
+    const navHeader = document.getElementById("header-navbar")
     const navLinks = document.getElementById("navbar-links");
+    const overlay = document.getElementById("menu-overlay");
+
 
     menuBtn.addEventListener("click", () => {
-        navLinks.classList.toggle("activeMenu");
-        menuBtn.classList.toggle("activeMenu")
+        const isActive = navLinks.classList.toggle("activeMenu");
+        const btnActive = menuBtn.classList.toggle("activeMenu");
+        const navActive = navHeader.classList.toggle("activeMenu")
+        overlay.classList.toggle("active", isActive, btnActive);
+    });
+
+    overlay.addEventListener("click", () => {
+        navHeader.classList.remove("activeMenu")
+        navLinks.classList.remove("activeMenu");
+        menuBtn.classList.remove("activeMenu");
+        overlay.classList.remove("active");
     });
 });
