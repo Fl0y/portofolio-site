@@ -712,12 +712,11 @@ p, a, button {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-auto-rows: 200px;
-    grid-auto-flow: dense; /* заполняет пустые ячейки */
+    grid-auto-flow: dense;
     gap: 10px;
     padding: 2rem 6rem;
 }
 
-/* Чтобы ячейки с разным span всегда масштабировались правильно */
 .gallery-block div {
     background-size: cover;
     background-position: center;
@@ -727,13 +726,11 @@ p, a, button {
     cursor: pointer;
 }
 
-/* Эффект при наведении */
 .gallery-block div:hover {
     transform: scale(1.03);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
 
-/* Разные размеры изображений для мозаики */
 .image_1 { grid-column: span 2; grid-row: span 2; background-image: url("../assets/images/gallery_images/image1.jpg"); }
 .image_2 { grid-row: span 1; background-image: url("../assets/images/gallery_images/image2.jpg"); }
 .image_3 { grid-row: span 2; background-image: url("../assets/images/gallery_images/image3.jpg"); }
