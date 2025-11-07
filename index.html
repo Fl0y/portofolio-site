@@ -1,332 +1,313 @@
 <!DOCTYPE html>
-<html lang="ro">
-    <head>
-        <!-- Font -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-        
-        <title>More Coffee</title>
-        <meta charset="UTF-8">
-        <!-- Compatibilitate cu Internet Explorer (legacy) -->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <!-- Responsivitate pe dispozitive mobile -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Descrierea (SEO + afișare în Google) -->
-        <meta name="description" content="Cafeneaua More Coffee - locația potrivită pentru a savura o cafea făcută cu dragoste">
-        <!-- Cuvinte cheie (nu e obligatoriu, dar util uneori) -->
-        <meta name="keywords" content="cafenea Ungheni, More Coffee, cafea, coffee, cappuccino, americano, latte">
-        <!-- Autorul site-ului -->
-        <meta name="Iulian" content="">
-        <!-- Favicon -->
-        <link rel="icon" type="image/png" href="assets/images/favicon_io_white/favicon.ico">
-        <!-- (Opțional) Meta tag pentru limba site-ului -->
-        <link rel="stylesheet" type="text/css" href="css/styles.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="container-header">
-                <nav class="header-navbar" id="header-navbar">
-                    <div class="navbar__logo"><a href=""><img src="assets/images/text_logo_black.svg" alt="More Coffee"></a></div>
-                    <div class="navbar-links" id="navbar-links">
-                        <a class="link__home" href="">Acasă</a>
-                        <a class="link__menu" href="">Meniu</a>
-                        <a class="link__cafe" href="">Cafeneaua noastră</a>
-                        <a class="link__about" href="about.html">Despre noi</a>
-                    </div>
-                    <button class="navbar__menu-btn" id="navbar__menu-btn"></button>
-                </nav>
-                <div class="menu-overlay" id="menu-overlay"></div>
-            </div>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Good Coffee</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Good Coffee Café – the perfect place to enjoy coffee made with love.">
+    <meta name="keywords" content="coffee shop, Good Coffee, coffee, cappuccino, americano, latte, espresso">
+    <link rel="icon" type="image/png" href="assets/images/favicon_io_white/favicon-32x32.png">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-header">
+            <nav class="header-navbar" id="header-navbar">
+                <div class="navbar__logo"><a href="#"><img src="assets/images/text_logo_black.svg" alt="Good Coffee"></a></div>
+                <div class="navbar-links" id="navbar-links">
+                    <a class="link__home" href="#">Home</a>
+                    <a class="link__menu" href="#menu-options">Menu</a>
+                    <a class="link__cafe" href="#gallery">Our Café</a>
+                    <a class="link__about" href="#about">About Us</a>
+                </div>
+                <button class="navbar__menu-btn" id="navbar__menu-btn"></button>
+            </nav>
+            <div class="menu-overlay" id="menu-overlay"></div>
+        </div>
 
-            <div class="container-main">
-                    
-                <div class="main-preview">
+        <div class="container-main">
+            <div class="main-preview">
+                <div class="preview-background">
+                    <h1>Good Coffee<br>Good Coffee</h1>
+                </div>
 
-                        <div class="preview-background">
-                            <h1>More Coffee<br>More Coffee</h1>
-                        </div>
-
-                    <div class="preview-content">
-                        <h1 class="content__name">Descoperă Gustul Adevărat Al Cafelei</h1>
-                        <p class="content__describe">Bobul de cafea cu grijă și pasiune prelucrat din cafeaua noastră este începutul unei zile senine. Aroma fantastică a cafelei predomină în sufletul clienților noșrti </p>
-                        <div class="preview-btn">
-                            <a class="preview__more-button" href="">Află mai mult
+                <div class="preview-content">
+                    <h1 class="content__name">Discover the True Taste of Coffee</h1>
+                    <p class="content__describe">Every coffee bean we roast with care and passion marks the beginning of a bright day. The fantastic aroma of our coffee stays in the hearts of our customers.</p>
+                    <div class="preview-btn">
+                        <a class="preview__more-button" href="#">Learn more
                             <div class="preview__btn-img"></div>
-                            </a>
-                        </div>
+                        </a>
+                    </div>
 
-                        <img class="preview__coffee-image" src="assets/images/coffe_preview.png" alt="Coffee cup">
-                        <div class="preview-numbers">
-                            <!-- la fiecare numar se adauga text prin css after -->
-                            <p class="numbers__num">10+</p>
-                            <p class="numbers__num">2k+</p>
-                            <p class="numbers__num">4,9</p>
+                    <img class="preview__coffee-image" src="assets/images/coffe_preview.png" alt="Coffee cup">
+                    <div class="preview-numbers">
+                        <p class="numbers__num">10+</p>
+                        <p class="numbers__num">2k+</p>
+                        <p class="numbers__num">4.9</p>
 
-                            <p class="numbers__text">Tipuri de cafea</p>
-                            <p class="numbers__text">Clienti mulțumiti</p>
-                            <p class="numbers__text">Rating-ul mediu</p>
-                        </div>
+                        <p class="numbers__text">Coffee types</p>
+                        <p class="numbers__text">Happy clients</p>
+                        <p class="numbers__text">Average rating</p>
                     </div>
                 </div>
+            </div>
 
-                <div class="main-menu">
-                    <div class="menu-content">
-                        <h1 class="menu-content__name">Meniul nostru</h1>
-                        <p class="menu-content__describe">Am ales cele mai bune rețete ce cafea pe gustul fiecărui client și depunem efort pentru a aduce la un nou nivel cultura cafelei în țară</p>
-                
-                        <div class="menu-options">
-                            <button class="options__btn" data-category="classic">Clasice</button>
-                            <button class="options__btn" data-category="special">Speciale</button>
-                            <button class="options__btn" data-category="cold">Reci</button>
-                        </div>
-                        
-                        <!-- Classic menu -->
-                        <div class="menu-block" data-category="classic">
-                            <div class="block-card">
-                                <div class="card__image-amrc"></div>
-                                <h3 class="card__name">Americano</h3>
-                                <p class="card__details">Espresso diluat cu apă fierbinte — gust echilibrat, perfect pentru o pauză lungă și liniștită.</p>
-                                <button class="card__btn">Detalii</button>
-                            </div>
-    
-                            <div class="block-card">
-                                <div class="card__image-esp"></div>
-                                <h3 class="card__name">Espresso</h3>
-                                <p class="card__details">O porție concentrată de cafea, intensă și aromată — baza oricărei băuturi espresso-based.</p>
-                                <button class="card__btn">Detalii</button>
-                            </div>
-                            
-                            <div class="block-card">
-                                <div class="card__image-dopp"></div>
-                                <h3 class="card__name">Doppio</h3>
-                                <p class="card__details">Dublu espresso — dublă doză de energie și gust bogat pentru adevărații iubitori de cafea.</p>
-                                <button class="card__btn">Detalii</button>
-                            </div>
-    
-                            <div class="block-card">
-                                <div class="card__image-capp"></div>
-                                <h3 class="card__name">Cappuccino</h3>
-                                <p class="card__details">Espresso, lapte cald și spumă densă — combinația ideală dintre cremozitate și aromă.</p>
-                                <button class="card__btn">Detalii</button>
-                            </div>
-    
-                            <div class="block-card">
-                                <div class="card__image-latt"></div>
-                                <h3 class="card__name">Latte</h3>
-                                <p class="card__details">O băutură fină, cu mai mult lapte și mai puțin espresso — perfectă pentru cei ce preferă gustul blând.</p>
-                                <button class="card__btn">Detalii</button>
-                            </div>
-                            
-                            <div class="block-card">
-                                <div class="card__image-flw"></div>
-                                <h3 class="card__name">Flat White</h3>
-                                <p class="card__details">Dublu espresso cu lapte microspumat — textură catifelată, gust intens, dar echilibrat.</p>
-                                <button class="card__btn">Detalii</button>
-                            </div>                            
-                        </div>
-                        <!-- Special menu -->
-                        <div class="menu-block" data-category="special">
-                            <div class="block-card">
-                                <div class="card__image-mocha"></div>
-                                <h3 class="card__name">Mocha</h3>
-                                <p class="card__details">Espresso diluat cu apă fierbinte — gust echilibrat, perfect pentru o pauză lungă și liniștită.</p>
-                                <button class="card__btn">Detalii</button>
-                            </div>
-    
-                            <div class="block-card">
-                                <div class="card__image-affo"></div>
-                                <h3 class="card__name">Affogato</h3>
-                                <p class="card__details">Un desert italian rafinat — o porție de înghețată de vanilie „înecată” într-un shot fierbinte de espresso.</p>
-                                <button class="card__btn">Detalii</button>
-                            </div>
-                            
-                            <div class="block-card">
-                                <div class="card__image-caramel"></div>
-                                <h3 class="card__name">Caramel Latte</h3>
-                                <p class="card__details">Espresso fin cu lapte spumat și un strop de sirop de caramel, pentru o aromă dulce și catifelată.</p>
-                                <button class="card__btn">Detalii</button>
-                            </div>
-    
-                            <div class="block-card">
-                                <div class="card__image-irish"></div>
-                                <h3 class="card__name">Irish Coffee</h3>
-                                <p class="card__details">Cafea tare combinată cu whisky irlandez, zahăr brun și frișcă — o băutură clasică, plină de caracter.</p>
-                                <button class="card__btn">Detalii</button>
-                            </div>
-    
-                            <div class="block-card">
-                                <div class="card__image-corta"></div>
-                                <h3 class="card__name">Cortado</h3>
-                                <p class="card__details">Espresso amestecat cu o cantitate egală de lapte cald, care temperează aciditatea și oferă un gust echilibrat.</p>
-                                <button class="card__btn">Detalii</button>
-                            </div>
-                            
-                            <div class="block-card">
-                                <div class="card__image-macchi"></div>
-                                <h3 class="card__name">Macchiato</h3>
-                                <p class="card__details">Un espresso intens „pătat” cu puțin lapte spumat — simplu, dar puternic în aromă.</p>
-                                <button class="card__btn">Detalii</button>
-                            </div>                            
-                        </div>
-                        <!-- Cold menu -->
-                        <div class="menu-block" data-category="cold">
-                            <div class="block-card">
-                                <div class="card__image-icelatte"></div>
-                                <h3 class="card__name">Iced Latte</h3>
-                                <p class="card__details">Espresso răcoritor combinat cu lapte rece și cuburi de gheață — un clasic perfect pentru zilele calde.</p>
-                                <button class="card__btn">Detalii</button>
-                            </div>
-    
-                            <div class="block-card">
-                                <div class="card__image-icemocha"></div>
-                                <h3 class="card__name">Iced Mocha</h3>
-                                <p class="card__details">Cafea rece, lapte și ciocolată cremoasă, servite peste gheață — combinația ideală între energie și desert.</p>
-                                <button class="card__btn">Detalii</button>
-                            </div>
-                            
-                            <div class="block-card">
-                                <div class="card__image-icemacchi"></div>
-                                <h3 class="card__name">Iced Caramel Macchiato</h3>
-                                <p class="card__details">Straturi de espresso, lapte rece și sirop de caramel, cu o textură catifelată și gust dulce intens.</p>
-                                <button class="card__btn">Detalii</button>
-                            </div>
-    
-                            <div class="block-card">
-                                <div class="card__image-coldbrew"></div>
-                                <h3 class="card__name">Cold Brew</h3>
-                                <p class="card__details">Cafea infuzată lent în apă rece timp de ore întregi — gust fin, mai puțin acid și plin de aromă naturală.</p>
-                                <button class="card__btn">Detalii</button>
-                            </div>
-                            
-                            <div class="block-card">
-                                <div class="card__image-frapp"></div>
-                                <h3 class="card__name">Frappuccino</h3>
-                                <p class="card__details">Amestec delicios de cafea, lapte și gheață blenduite, acoperite cu frișcă — desertul rece preferat al iubitorilor de cafea.</p>
-                                <button class="card__btn">Detalii</button>
-                            </div>
+            <div class="main-menu">
+                <div class="menu-content">
+                    <h1 class="menu-content__name">Our Menu</h1>
+                    <p class="menu-content__describe">We’ve selected the best coffee recipes to suit every taste and strive to bring coffee culture to a new level.</p>
 
-                            <div class="block-card">
-                                <div class="card__image-icevanilla"></div>
-                                <h3 class="card__name">Iced Vanilla Latte</h3>
-                                <p class="card__details">Espresso rece și lapte cu aromă de vanilie, perfect echilibrate pentru o băutură dulce și revigorantă.</p>
-                                <button class="card__btn">Detalii</button>
-                            </div>
-                            
+                    <div class="menu-options" id="menu-options">
+                        <button class="options__btn" data-category="classic">Classic</button>
+                        <button class="options__btn" data-category="special">Special</button>
+                        <button class="options__btn" data-category="cold">Cold</button>
+                    </div>
+
+                    <!-- Classic Menu -->
+                    <div class="menu-block" data-category="classic">
+                        <div class="block-card">
+                            <div class="card__image-amrc"></div>
+                            <h3 class="card__name">Americano</h3>
+                            <p class="card__details">Espresso diluted with hot water – balanced taste, perfect for a long, calm break.</p>
+                            <button class="card__btn">Details</button>
+                        </div>
+
+                        <div class="block-card">
+                            <div class="card__image-esp"></div>
+                            <h3 class="card__name">Espresso</h3>
+                            <p class="card__details">A concentrated shot of coffee – intense and aromatic, the foundation of all espresso-based drinks.</p>
+                            <button class="card__btn">Details</button>
+                        </div>
+
+                        <div class="block-card">
+                            <div class="card__image-dopp"></div>
+                            <h3 class="card__name">Doppio</h3>
+                            <p class="card__details">A double espresso – double energy and rich flavor for true coffee lovers.</p>
+                            <button class="card__btn">Details</button>
+                        </div>
+
+                        <div class="block-card">
+                            <div class="card__image-capp"></div>
+                            <h3 class="card__name">Cappuccino</h3>
+                            <p class="card__details">Espresso, steamed milk, and dense foam – the perfect mix of creaminess and aroma.</p>
+                            <button class="card__btn">Details</button>
+                        </div>
+
+                        <div class="block-card">
+                            <div class="card__image-latt"></div>
+                            <h3 class="card__name">Latte</h3>
+                            <p class="card__details">A smooth drink with more milk and less espresso – ideal for those who prefer a mild taste.</p>
+                            <button class="card__btn">Details</button>
+                        </div>
+
+                        <div class="block-card">
+                            <div class="card__image-flw"></div>
+                            <h3 class="card__name">Flat White</h3>
+                            <p class="card__details">Double espresso with microfoam milk – velvety texture, rich but balanced flavor.</p>
+                            <button class="card__btn">Details</button>
                         </div>
                     </div>
-                </div>
 
-                <div class="main-about">
-                    <h2 class="content__name">Despre noi</h2>
-                    <div class="about-content">
-                        <div class="content-left">
-                            <p class="about__describe">La More Coffee, credem că fiecare zi începe mai bine cu o ceașcă bună de cafea.<br>
-                            Am deschis cafeneaua noastră în inima orașului Ungheni, din dorința de a aduce o experiență autentică, simplă și sinceră — o pauză de aromă și liniște în mijlocul agitației zilnice.
-                            </p>
-
-                            <p class="about__describe">
-                            Selectăm cu grijă boabele de cafea, prăjite proaspăt și preparate cu pasiune de barista noștri.<br>
-                            Fiecare espresso, latte sau cappuccino spune o mică poveste — despre timp, tradiție și bucuria de a savura momentul.
-                            </p>
-
-                            <p class="about__describe">La More Coffee, nu e vorba doar despre băuturi, ci despre oameni.<br>
-                            Despre zâmbetele celor care vin pentru prima dată și revin pentru gustul inconfundabil al cafelei și atmosfera noastră caldă.
-                            </p>
-                        </div>
-                        <img class="content-right__image" src="assets/images/enter_caffee.jpg" alt="Inside Cafe">
-
-                    </div>
-                    
-                    <div class="about-content-footer">
-                        
-                        <div class="footer-card">
-                            <p class="footer__feature">Comunitate</p>       
-                            <p class="footer__value">Suntem locul unde prietenii se întâlnesc la o cafea bună.</p>
-                        </div>
-                        
-                        <div class="footer-card">             
-                            <p class="footer__feature">Pasiune</p>
-                            <p class="footer__value">Fiecare ceașcă e făcută cu grijă și atenție la detalii.</p>
+                    <!-- Special Menu -->
+                    <div class="menu-block" data-category="special">
+                        <div class="block-card">
+                            <div class="card__image-mocha"></div>
+                            <h3 class="card__name">Mocha</h3>
+                            <p class="card__details">Espresso mixed with chocolate and milk – smooth and perfectly balanced.</p>
+                            <button class="card__btn">Details</button>
                         </div>
 
-                        <div class="footer-card">
-                             <p class="footer__feature">Calitate</p>
-                             <p class="footer__value">Folosim doar boabe selectate și ingrediente naturale.</p>
+                        <div class="block-card">
+                            <div class="card__image-affo"></div>
+                            <h3 class="card__name">Affogato</h3>
+                            <p class="card__details">A refined Italian dessert – a scoop of vanilla ice cream “drowned” in a hot espresso shot.</p>
+                            <button class="card__btn">Details</button>
+                        </div>
+
+                        <div class="block-card">
+                            <div class="card__image-caramel"></div>
+                            <h3 class="card__name">Caramel Latte</h3>
+                            <p class="card__details">Smooth espresso with steamed milk and a hint of caramel syrup for a sweet, silky flavor.</p>
+                            <button class="card__btn">Details</button>
+                        </div>
+
+                        <div class="block-card">
+                            <div class="card__image-irish"></div>
+                            <h3 class="card__name">Irish Coffee</h3>
+                            <p class="card__details">Strong coffee mixed with Irish whiskey, brown sugar, and cream – a timeless classic full of character.</p>
+                            <button class="card__btn">Details</button>
+                        </div>
+
+                        <div class="block-card">
+                            <div class="card__image-corta"></div>
+                            <h3 class="card__name">Cortado</h3>
+                            <p class="card__details">Espresso mixed with an equal amount of warm milk – smooth and well-balanced.</p>
+                            <button class="card__btn">Details</button>
+                        </div>
+
+                        <div class="block-card">
+                            <div class="card__image-macchi"></div>
+                            <h3 class="card__name">Macchiato</h3>
+                            <p class="card__details">A strong espresso “stained” with a touch of milk foam – simple yet powerful in flavor.</p>
+                            <button class="card__btn">Details</button>
                         </div>
                     </div>
-                </div>
 
-                <div class="main-gallery">
-                    <div class="gallery-content">
-                        <h1 class="gallery__title">Galeria Noastră</h1>
-                        <p class="gallery__motto">Descoperă atmosfera More Coffee</p>
-                        <p class="gallery__describe">Lasă-te purtat de aroma boabelor proaspăt prăjite și de momentele autentice petrecute în cafeneaua noastră din inima orașului Ungheni. Fiecare imagine surprinde un colț din universul More Coffee — de la detaliile interioare calde până la zâmbetele oaspeților noștri.</p>
-                    </div>
-                    
-                    <div class="gallery-block">
-                        <div class="image_1"></div>
-                        <div class="image_2"></div>
-                        <div class="image_3"></div>
-                        <div class="image_4"></div>
-                        <div class="image_5"></div>
-                        <div class="image_6"></div>
-                        <div class="image_7"></div>
-                        <div class="image_8"></div>
-                        <div class="image_9"></div>
-                        <div class="image_10"></div>
-                        <div class="image_11"></div>
-                        <div class="image_12"></div>
-                        <div class="image_13"></div>
-                    </div>
-                </div>
+                    <!-- Cold Menu -->
+                    <div class="menu-block" data-category="cold">
+                        <div class="block-card">
+                            <div class="card__image-icelatte"></div>
+                            <h3 class="card__name">Iced Latte</h3>
+                            <p class="card__details">Refreshing espresso combined with cold milk and ice cubes – a summer favorite.</p>
+                            <button class="card__btn">Details</button>
+                        </div>
 
-                <div class="main-repost">
-                    <div class="repost-content">
-                        <h1 class="repost-content__title">Fii în cursă de toate evenimentele.</h1>
-                        <div class="repost-content-form">
-                            <p class="email__repost">Află primul care află de modificarile în cafeneaua noastră</p>
-                            <form>
-                                <input type="email" id="email__repost" placeholder="Introduceti email-ul" class="input__email">
-                                <input type="submit" value="" class="input__submit">
-                            </form>
+                        <div class="block-card">
+                            <div class="card__image-icemocha"></div>
+                            <h3 class="card__name">Iced Mocha</h3>
+                            <p class="card__details">Chilled coffee, milk, and creamy chocolate over ice – a sweet blend of dessert and energy.</p>
+                            <button class="card__btn">Details</button>
+                        </div>
+
+                        <div class="block-card">
+                            <div class="card__image-icemacchi"></div>
+                            <h3 class="card__name">Iced Caramel Macchiato</h3>
+                            <p class="card__details">Layers of espresso, cold milk, and caramel syrup – silky texture and rich sweetness.</p>
+                            <button class="card__btn">Details</button>
+                        </div>
+
+                        <div class="block-card">
+                            <div class="card__image-coldbrew"></div>
+                            <h3 class="card__name">Cold Brew</h3>
+                            <p class="card__details">Slowly infused in cold water for hours – smooth, low-acid, and naturally aromatic.</p>
+                            <button class="card__btn">Details</button>
+                        </div>
+
+                        <div class="block-card">
+                            <div class="card__image-frapp"></div>
+                            <h3 class="card__name">Frappuccino</h3>
+                            <p class="card__details">A delicious blend of coffee, milk, and ice, topped with whipped cream – a favorite cold dessert drink.</p>
+                            <button class="card__btn">Details</button>
+                        </div>
+                                
+                        <div class="block-card">
+                            <div class="card__image-icevanilla"></div>
+                            <h3 class="card__name">Iced Vanilla Latte</h3>
+                            <p class="card__details">Cold espresso with vanilla-flavored milk – sweet, refreshing, and perfectly balanced.</p>
+                            <button class="card__btn">Details</button>
                         </div>
                     </div>
                 </div>
             </div>
 
+            <div class="main-about" id="about">
+                <h2 class="content__name">About Us</h2>
+                <div class="about-content">
+                    <div class="content-left">
+                        <p class="about__describe">At Good Coffee, we believe every day starts better with a good cup of coffee.<br>
+                        We opened our café in the heart of Ungheni to bring an authentic, simple, and sincere experience — a moment of flavor and calm in the middle of daily rush.</p>
 
-            <div class="container-footer">
-                <footer class="footer-content">
-                    <div class="col_1">
-                        <img class="footer__logo" src="assets/images/text_logo_white.svg" alt="Logo white footer">
-                        <p class="footer__motto">Savurează o cafea bună într-o cafenea bună.</p>
+                        <p class="about__describe">We carefully select our coffee beans, freshly roasted and brewed with passion by our baristas.<br>
+                        Every espresso, latte, or cappuccino tells a small story — about time, tradition, and the joy of savoring the moment.</p>
+
+                        <p class="about__describe">At Good Coffee, it’s not just about drinks — it’s about people.<br>
+                        About the smiles of those who come for the first time and return for the unmistakable taste and our warm atmosphere.</p>
                     </div>
-                    <div class="col_2">
-                        <p>Contacte</p>
-                        <address>
-                            Email: <a href="mailto:">morecoffee@gmail.com</a><br>
-                            Telefon: <a href="tel:+373123456789">+373 123 45 789</a><br>
-                            Adresa: <a href="https://maps.app.goo.gl/YyADucqCBpjpmW6X9">Decebal 15, Ungheni, Republica Moldova</a>
-                        </address>
+                    <img class="content-right__image" src="assets/images/enter_caffee.jpg" alt="Inside Café">
+                </div>
+                
+                <div class="about-content-footer">
+                    <div class="footer-card">
+                        <p class="footer__feature">Community</p>       
+                        <p class="footer__value">We’re the place where friends meet for a good coffee.</p>
                     </div>
-                    <div class="col_3">
-                        <div class="footer-video">
-                            <video autoplay muted loop playsinline>
-                                <source src="assets/video/video_footer.mp4">
-                            </video>
-                        </div>
-                        <p class="footer__follow">Urmăriți-ne</p>
-                        <div class="social-links">
-                            <a class="icon__instagram" href="https://www.facebook.com/MoreCoffeeUngheni/"><img src="assets/images/instagram_icon.svg" alt="Instagram"></a>
-                            <a class="icon__facebook" href="https://www.instagram.com/more_coffee_ungheni/"><img src="assets/images/facebook_icon.svg" alt="Facebook"></a>
-                        </div>
+                    
+                    <div class="footer-card">             
+                        <p class="footer__feature">Passion</p>
+                        <p class="footer__value">Every cup is made with care and attention to detail.</p>
                     </div>
-                    <p class="copyright">Aceasta este o machetă copie/exemplu al cafenelei și nu are scopuri comerciale. <a href="https://www.facebook.com/MoreCoffeeUngheni/">Referință la original</a></p>
-                </footer>
+
+                    <div class="footer-card">
+                        <p class="footer__feature">Quality</p>
+                        <p class="footer__value">We use only selected beans and natural ingredients.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-gallery" id="gallery">
+                <div class="gallery-content">
+                    <h1 class="gallery__title">Our Gallery</h1>
+                    <p class="gallery__motto">Discover the atmosphere of Good Coffee</p>
+                    <p class="gallery__describe">Let yourself be carried by the aroma of freshly roasted beans and the authentic moments spent in our café. Each image captures a piece of the Good Coffee universe — from warm interior details to our guests’ smiles.</p>
+                </div>
+                
+                <div class="gallery-block">
+                    <div class="image_1"></div>
+                    <div class="image_2"></div>
+                    <div class="image_3"></div>
+                    <div class="image_4"></div>
+                    <div class="image_5"></div>
+                    <div class="image_6"></div>
+                    <div class="image_7"></div>
+                    <div class="image_8"></div>
+                    <div class="image_9"></div>
+                    <div class="image_10"></div>
+                    <div class="image_11"></div>
+                    <div class="image_12"></div>
+                    <div class="image_13"></div>
+                </div>
+            </div>
+
+            <div class="main-repost">
+                <div class="repost-content">
+                    <h1 class="repost-content__title">Stay updated with our latest news.</h1>
+                    <div class="repost-content-form">
+                        <p class="email__repost">Be the first to hear about new offers and events at our café.</p>
+                        <form>
+                            <input type="email" id="email__repost" placeholder="Enter your email" class="input__email">
+                            <input type="submit" value="" class="input__submit">
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
-    
-    <script src="scripts/script.js"></script>
-    </body>
+
+        <div class="container-footer">
+            <footer class="footer-content">
+                <div class="col_1">
+                    <img class="footer__logo" src="assets/images/text_logo_white.svg" alt="Good Coffee logo">
+                    <p class="footer__motto">Enjoy a good coffee in a good café.</p>
+                </div>
+                <div class="col_2">
+                    <p>Contact</p>
+                    <address>
+                        Email: <a href="mailto:goodcoffee@gmail.com">goodcoffee@gmail.com</a><br>
+                        Phone: <a href="tel:+373123456789">+373 123 45 789</a><br>
+                        Address:  address ,street, city, country
+                    </address>
+                </div>
+                <div class="col_3">
+                    <div class="footer-video">
+                        <video autoplay muted loop playsinline>
+                            <source src="assets/video/video_footer.mp4">
+                        </video>
+                    </div>
+                    <p class="footer__follow">Follow us</p>
+                    <div class="social-links">
+                        <a class="icon__instagram" href="#"><img src="assets/images/instagram_icon.svg" alt="Instagram"></a>
+                        <a class="icon__facebook" href="#"><img src="assets/images/facebook_icon.svg" alt="Facebook"></a>
+                    </div>
+                </div>
+                <p class="copyright">This is a demo copy created for a personal portfolio project. It has no commercial purpose.</p>
+            </footer>
+        </div>
+    </div>
+
+<script src="scripts/script.js"></script>
+</body>
 </html>
